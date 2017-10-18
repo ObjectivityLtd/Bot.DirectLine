@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.10
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Objectivity.Bot.DirectLine", "Objectivity.Bot.DirectLine\Objectivity.Bot.DirectLine.csproj", "{E2C67075-2B7C-4748-B8B1-29BD4D7E1481}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Folder", "Solution Folder", "{8A7BE264-3B4C-4091-A61A-34D10D5AAAA7}"
+	ProjectSection(SolutionItems) = preProject
+		Analysers.ruleset = Analysers.ruleset
+		AnalysersTests.ruleset = AnalysersTests.ruleset
+		CustomDictionary.xml = CustomDictionary.xml
+		CustomDictionaryTests.xml = CustomDictionaryTests.xml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E2C67075-2B7C-4748-B8B1-29BD4D7E1481}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2C67075-2B7C-4748-B8B1-29BD4D7E1481}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2C67075-2B7C-4748-B8B1-29BD4D7E1481}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2C67075-2B7C-4748-B8B1-29BD4D7E1481}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CFBA5763-61E7-4E10-8D2B-0A632D21F817}
+	EndGlobalSection
+EndGlobal
