@@ -24,14 +24,18 @@ before_build:
 build:
   verbosity: detailed
   publish_nuget: true
+  publish_nuget_symbols: true
 test:
   assemblies:
     - '**\*.Tests.dll'
-assembly_info:
+dotnet_csproj:
   patch: true
-  file: \Objectivity.Bot.DirectLine\Properties\AssemblyInfo.cs
-  assembly_version: "{version}"
-  assembly_file_version: "{version}"
+  file: '**\*.csproj'
+  version: '{version}'
+  package_version: '{version}'
+  assembly_version: '{version}'
+  file_version: '{version}'
+  informational_version: '{version}'
 environment:
   NugetApiKey:
     secure: DIE2y66RzXWvp2Q0wIOLlBTjxILBGeHyyg3pjwWjdVrggzuj9BuMWCdfHFmt9nt2
@@ -41,3 +45,4 @@ deploy:
     artifact: /.*\.nupkg/
     on:
       appveyor_repo_tag: true
+    skip_symbols: false
